@@ -1,0 +1,37 @@
+Day - Task 2
+
+In JavaScript, the Document and Window objects are two of the most important objects. They are both part of the browser's JavaScript implementation and provide access to a wide range of functionality related to the HTML document and the browser window. However, they serve different purposes and have distinct characteristics. In this blog, we will discuss the differences between the Document and Window objects in JavaScript.
+
+Document Object
+The Document object represents the HTML document that is currently loaded in the browser. It provides access to the document's properties, methods, and events. The Document object is the root of the HTML document tree, and it contains all of the HTML elements on the page. The Document object is created when the HTML document is loaded and is available as a global object in JavaScript.
+
+The Document object provides access to the following important properties:
+
+document.title: This property allows you to get or set the title of the HTML document.
+document.body: This property provides access to the body element of the HTML document.
+document.head: This property provides access to the head element of the HTML document.
+The Document object also provides a wide range of methods for manipulating the HTML document. Some of the most commonly used methods are:
+
+document.getElementById(): This method returns the element with the specified ID.
+document.createElement(): This method creates a new HTML element.
+document.createTextNode(): This method creates a new text node.
+Window Object
+The Window object represents the browser window or tab that is currently displaying the HTML document. It provides access to the window's properties, methods, and events. The Window object is created when the browser window or tab is opened and is available as a global object in JavaScript.
+
+The Window object provides access to the following important properties:
+
+window.innerHeight: This property returns the height of the browser window's viewport.
+window.innerWidth: This property returns the width of the browser window's viewport.
+window.location: This property provides access to the current URL of the HTML document.
+The Window object also provides a wide range of methods for manipulating the browser window. Some of the most commonly used methods are:
+
+window.open(): This method opens a new browser window or tab.
+window.close(): This method closes the current browser window or tab.
+window.alert(): This method displays an alert box with a message.
+Differences between Document and Window Objects
+The Document and Window objects are both global objects in JavaScript, but they serve different purposes and have distinct characteristics. The main differences between the two objects are:
+
+The Document object represents the HTML document, while the Window object represents the browser window or tab that is currently displaying the HTML document.
+The Document object provides access to the HTML elements on the page, while the Window object provides access to the browser window's properties and methods.
+The Document object is created when the HTML document is loaded, while the Window object is created when the browser window or tab is opened.
+In conclusion, the Document and Window objects are two essential objects in JavaScript that provide access to a wide range of functionality related to the HTML document and the browser window. Understanding the differences between the two objects is essential for building robust and reliable JavaScript applications.
